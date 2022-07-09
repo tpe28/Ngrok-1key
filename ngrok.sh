@@ -34,7 +34,7 @@ done
 [[ -z $(curl 2>/dev/null) ]] && ${PACKAGE_UPDATE[int]} && ${PACKAGE_INSTALL[int]} curl
 
 ## 统计脚本运行次数
-COUNT=$(curl -sm8 "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fraw.githubusercontents.com%2FMisaka-blog%2FNgrok-1key%2Fmaster%2Fngrok.sh&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" 2>&1) &&
+COUNT=$(curl -sm8 "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fraw.githubusercontents.com%2Ftpe28%2FNgrok-1key%2Fmaster%2Fngrok.sh&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" 2>&1) &&
 TODAY=$(expr "$COUNT" : '.*\s\([0-9]\{1,\}\)\s/.*')
 TOTAL=$(expr "$COUNT" : '.*/\s\([0-9]\{1,\}\)\s.*')
 
@@ -180,7 +180,8 @@ menu(){
 	green "3. 启用隧道"
 	green "4. 停用隧道"
 	green "5. 卸载Ngrok程序包"
-	green "6. 更新脚本"
+	
+	# green "6. 更新脚本"
 	green "0. 退出"
 	echo "         "
 	read -p "请输入数字:" NumberInput
@@ -190,7 +191,7 @@ menu(){
 		3) runTunnel ;;
 		4) killTunnel ;;
 		5) uninstall ;;
-		6) wget -N https://gitlab.com/misakano7545/Ngrok-1key/-/raw/master/ngrok.sh && bash ngrok.sh ;;
+		# 6) wget -N https://gitlab.com/misakano7545/Ngrok-1key/-/raw/master/ngrok.sh && bash ngrok.sh ;;
 		*) exit 1 ;;
 	esac
 }
