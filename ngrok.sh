@@ -180,7 +180,6 @@ menu(){
 	green "3. 启用隧道"
 	green "4. 停用隧道"
 	green "5. 卸载Ngrok程序包"
-	
 	# green "6. 更新脚本"
 	green "0. 退出"
 	echo "         "
