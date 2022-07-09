@@ -17,8 +17,7 @@ wget -N --no-check-certificate https://raw.githubusercontents.com/tpe28/Ngrok-1k
 
 ## 使用说明
 
-~~https://owo.misaka.rest/ngrok-script/~~ *已失效*
-~~*互联网档案馆无留存, 此使用说明无从而知*~~
+~~https://owo.misaka.rest/ngrok-script/~~ *已失效 互联网档案馆无留存*
 
 ## 参考资料
 
@@ -34,7 +33,7 @@ GitLab: https://gitlab.com/misakano7545/Ngrok-1key
 
 ## ~~交流群~~ 墓碑
 
-~~[Telegram 群组](https://t.me/misakanetcn)~~
+~~[Telegram 群组](https://t.me/misakanetcn)~~  
 [Telegram Channel](https://t.me/misakano)
 
 ## 赞助我们
