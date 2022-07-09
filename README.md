@@ -32,9 +32,10 @@ BitBucket: https://bitbucket.org/misakano7545/ngrok-1key/
 
 GitLab: https://gitlab.com/misakano7545/Ngrok-1key
 
-## 交流群
+## ~~交流群~~ 墓碑
 
-[Telegram 群组](https://t.me/misakanetcn)
+~~[Telegram 群组](https://t.me/misakanetcn)~~
+[Telegram Channel](https://t.me/misakano)
 
 ## 赞助我们
 
