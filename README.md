@@ -9,14 +9,16 @@
 ## 使用方法
 
 ```shell
-wget -N --no-check-certificate https://raw.githubusercontents.com/Misaka-blog/Ngrok-1key/master/ngrok.sh && bash ngrok.sh
+# wget -N --no-check-certificate https://raw.githubusercontents.com/Misaka-blog/Ngrok-1key/master/ngrok.sh && bash ngrok.sh
+wget -N --no-check-certificate https://raw.githubusercontents.com/tpe28/Ngrok-1key/master/ngrok.sh && bash ngrok.sh
 ```
 
 快捷方式 `bash ngrok.sh`
 
 ## 使用说明
 
-https://owo.misaka.rest/ngrok-script/
+~~https://owo.misaka.rest/ngrok-script/~~ *已失效*
+~~*互联网档案馆无留存, 此使用说明无从而知*~~
 
 ## 参考资料
 
